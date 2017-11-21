@@ -1,0 +1,6 @@
+[submodule "admin"]
+	path = admin
+	url = https://github.com/krisdb2009/joomla_admin_com_cpquicklinks.git
+[submodule "site"]
+	path = site
+	url = https://github.com/krisdb2009/joomla_site_com_cpquicklinks.git
