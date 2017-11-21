@@ -5,7 +5,7 @@
 	<author>Dylan Bickerstaff</author>
 	<authorEmail>dylan.bickerstaff@cedarpoint.com</authorEmail>
 	<version>0.0.1</version>
-	<description>Edit and display quick links wherever! Wowzers, wish you had this before? Amirite?</description>
+	<description>Easy to use Quick Links page</description>
 	<install>
 		<sql>
 			<file driver="mysql" charset="utf8">sql/install.sql</file>
@@ -18,14 +18,15 @@
 	</uninstall>
 	<files folder="site">
 		<filename>cpquicklinks.php</filename>
+		<folder>src</folder>
 	</files>
 	<administration>
-		<menu link='index.php?option=com_cpquicklinks'>CP Quick Link Config</menu>
+		<menu link='index.php?option=com_cpquicklinks'>CP Quick Links Config</menu>
 		<files folder="admin">
 			<filename>cpquicklinks.php</filename>
-			<filename>controller.php</filename>
+			<filename>cpquicklinks_api.php</filename>
 			<folder>sql</folder>
-			<folder>views</folder>
+			<folder>src</folder>
 		</files>
 	</administration>
 </extension>
