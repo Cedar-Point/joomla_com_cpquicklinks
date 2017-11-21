@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="component" version="3.2.0" method="upgrade">
+	<name>CP Quick Links</name>
+	<creationDate>November 2017</creationDate>
+	<author>Dylan Bickerstaff</author>
+	<authorEmail>dylan.bickerstaff@cedarpoint.com</authorEmail>
+	<version>0.0.1</version>
+	<description>Edit and display quick links wherever! Wowzers, wish you had this before? Amirite?</description>
+	<install>
+		<sql>
+			<file driver="mysql" charset="utf8">sql/install.sql</file>
+		</sql>
+	</install>
+	<uninstall>
+		<sql>
+			<file driver="mysql" charset="utf8">sql/uninstall.sql</file>
+		</sql>
+	</uninstall>
+	<files folder="site">
+		<filename>cpquicklinks.php</filename>
+	</files>
+	<administration>
+		<menu link='index.php?option=com_cpquicklinks'>CP Quick Link Config</menu>
+		<files folder="admin">
+			<filename>cpquicklinks.php</filename>
+			<filename>controller.php</filename>
+			<folder>sql</folder>
+			<folder>views</folder>
+		</files>
+	</administration>
+</extension>
