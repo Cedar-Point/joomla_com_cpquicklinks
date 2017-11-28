@@ -19,6 +19,7 @@
 	<files folder="site">
 		<filename>cpquicklinks.php</filename>
 		<folder>src</folder>
+		<folder>views</folder>
 	</files>
 	<administration>
 		<menu link='index.php?option=com_cpquicklinks'>CP Quick Links Config</menu>
