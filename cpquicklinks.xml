@@ -4,7 +4,7 @@
 	<creationDate>November 2017</creationDate>
 	<author>Dylan Bickerstaff</author>
 	<authorEmail>dylan.bickerstaff@cedarpoint.com</authorEmail>
-	<version>0.0.1</version>
+	<version>0.0.2</version>
 	<description>Easy to use Quick Links page</description>
 	<install>
 		<sql>
